@@ -1,0 +1,75 @@
+{
+  "dimensions": [
+    {
+      "name": "skills_match",
+      "label": "Skills Match",
+      "weight": 0.35,
+      "description": "How well the candidate's technical skills align with required and preferred skills for an AI Engineer (LLMs, RAG, ML frameworks, MLOps, cloud).",
+      "scoring_guide": {
+        "90-100": "Covers all required skills + most preferred skills with clear hands-on depth in LLMs/RAG/MLOps",
+        "70-89": "Covers all required skills; solid experience with several preferred skills",
+        "50-69": "Covers most required skills; limited LLM or production AI experience",
+        "30-49": "General ML/software background but missing core AI engineering skills",
+        "0-29": "Significant skill gaps — no evidence of LLM or ML experience"
+      }
+    },
+    {
+      "name": "experience",
+      "label": "Relevant Experience",
+      "weight": 0.30,
+      "description": "Years and quality of hands-on AI engineering experience — building and shipping AI/ML systems, not just research or coursework.",
+      "scoring_guide": {
+        "90-100": "5+ years, clear production AI deployments, measurable business impact",
+        "70-89": "3-5 years of relevant experience, shipped at least one production AI system",
+        "50-69": "1-3 years or primarily research/academic AI experience",
+        "30-49": "Under 1 year or AI experience limited to side projects",
+        "0-29": "No hands-on AI engineering experience"
+      }
+    },
+    {
+      "name": "education",
+      "label": "Education",
+      "weight": 0.15,
+      "description": "Alignment of educational background with AI engineering requirements.",
+      "scoring_guide": {
+        "90-100": "MS or PhD in CS, ML, or related field from a strong program",
+        "70-89": "BS in CS, Mathematics, or Engineering; or strong bootcamp with AI focus",
+        "50-69": "Tangentially related degree (e.g. physics, statistics) with self-study evidence",
+        "30-49": "Unrelated degree but strong practical experience compensates",
+        "0-29": "No formal education listed"
+      }
+    },
+    {
+      "name": "communication",
+      "label": "Communication & Clarity",
+      "weight": 0.10,
+      "description": "How clearly the resume communicates impact, architecture decisions, and technical depth.",
+      "scoring_guide": {
+        "90-100": "Quantified outcomes, clear system descriptions, professional and concise",
+        "70-89": "Well-structured with some measurable results",
+        "50-69": "Readable but vague about impact or technical specifics",
+        "30-49": "Disorganised, typos, or very sparse descriptions",
+        "0-29": "Very poor clarity"
+      }
+    },
+    {
+      "name": "overall_fit",
+      "label": "Overall Culture & Role Fit",
+      "weight": 0.10,
+      "description": "General signals of ownership, curiosity, and ability to work at the intersection of research and production.",
+      "scoring_guide": {
+        "90-100": "Evidence of independent research, open-source contributions, or AI community involvement",
+        "70-89": "Strong teamwork and initiative signals",
+        "50-69": "Some signals, harder to assess",
+        "30-49": "Limited indicators",
+        "0-29": "Misalignment with role expectations"
+      }
+    }
+  ],
+  "recommendation_thresholds": {
+    "STRONG_YES": 80,
+    "YES": 65,
+    "MAYBE": 50,
+    "NO": 0
+  }
+}

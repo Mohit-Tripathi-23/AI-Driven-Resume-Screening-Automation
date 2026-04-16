@@ -1,0 +1,45 @@
+{
+  "role_title": "AI Engineer",
+  "department": "AI Platform",
+  "location": "Remote / Hybrid",
+  "employment_type": "Full-Time",
+  "summary": "We are looking for an AI Engineer to design, build, and deploy production-grade AI systems including LLM-powered applications, RAG pipelines, and ML models. You will work closely with product, data science, and infrastructure teams to ship reliable, scalable AI features.",
+  "required_skills": [
+    "Python",
+    "Large Language Models (LLMs)",
+    "Prompt engineering",
+    "REST API development",
+    "SQL or NoSQL databases",
+    "Git & version control"
+  ],
+  "preferred_skills": [
+    "LangChain or LlamaIndex",
+    "RAG (Retrieval-Augmented Generation)",
+    "PyTorch or TensorFlow",
+    "Hugging Face Transformers",
+    "Vector databases (Pinecone, Chroma, pgvector)",
+    "MLflow or similar MLOps tools",
+    "Docker / Kubernetes",
+    "AWS, GCP, or Azure",
+    "Fine-tuning LLMs (LoRA, PEFT)",
+    "OpenAI / Anthropic / Gemini APIs"
+  ],
+  "experience_years_min": 3,
+  "experience_years_preferred": 5,
+  "education": "Bachelor's degree in Computer Science, Machine Learning, Mathematics, or equivalent experience",
+  "responsibilities": [
+    "Design and build LLM-powered features and pipelines (RAG, agents, function-calling)",
+    "Evaluate, fine-tune, and deploy open-source and proprietary models",
+    "Build and maintain ML infrastructure and monitoring",
+    "Collaborate with product and design on AI-driven user experiences",
+    "Write clean, tested, production-quality Python code",
+    "Document systems and contribute to the team's AI knowledge base"
+  ],
+  "scoring_weights": {
+    "skills_match": 0.35,
+    "experience": 0.30,
+    "education": 0.15,
+    "communication": 0.10,
+    "overall_fit": 0.10
+  }
+}

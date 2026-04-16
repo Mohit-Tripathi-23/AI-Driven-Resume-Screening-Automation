@@ -205,3 +205,11 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Project-specific
+.tmp/
+output/
+resumes/*.pdf
+resumes/*.docx
+resumes/*.doc
+.env
